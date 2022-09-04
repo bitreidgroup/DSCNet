@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.05625) ![visitors](https://visitor-badge.glitch.me/badge?page_id=megvii-research/PETR)
 
-This repository is an official implementation of [DSCNet](https://arxiv.org/abs/2203.05625), a powerful baseline for VI-ReID
+This repository is an official implementation of [DSCNet](https://arxiv.org/abs/2203.05625), a strong baseline for VI-ReID
 <div align="left">
   <img src="assets\teaser.png" width="60%" height="60%" />
 </div><br/>
