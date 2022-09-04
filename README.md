@@ -21,7 +21,7 @@ This repository is an official implementation of [DSCNet](https://arxiv.org/abs/
 ## ⚙️ Setup environment
 * Clone this repo: 
 ```shell
-git clone https://github.com/bitreidgroup/DSCNet.git && cd DSCNet`
+git clone https://github.com/bitreidgroup/DSCNet.git && cd DSCNet
 ```
 * Create a conda environment and activate the environment.
 ```shell
