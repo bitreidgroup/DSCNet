@@ -20,14 +20,13 @@ This repository is an official implementation of [DSCNet](https://arxiv.org/abs/
 
 ## ⚙️ Setup environment
 * Clone this repo: 
-
-`git clone https://github.com/bitreidgroup/DSCNet.git && cd DSCNet`
-
+```shell
+git clone https://github.com/bitreidgroup/DSCNet.git && cd DSCNet`
+```
 * Create a conda environment and activate the environment.
-  
-`conda env create -f environment.yaml`  
-  
-`conda activate dsc` 
+```shell
+conda env create -f environment.yaml &&  conda activate dsc
+```
 
 *We recommend Python = 3.6, CUDA = 10.0, Cudnn = 7.6.5, Pytorch = 1.2, and CudaToolkit = 10.0.130 for the environment.* 
 
