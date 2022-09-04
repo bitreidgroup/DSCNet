@@ -7,11 +7,11 @@ This repository is an official implementation of [DSCNet](https://arxiv.org/abs/
   <img src="assets\teaser.png" width="60%" height="60%" />
 </div><br/>
 
-## News
+## 📈 News
 **2022.07.04** PETR has been accepted by IEEE Transactions on Information Forensics and Security (TIFS).  
-		**2022.09.04** Code Release.  
+**2022.09.04** Code Release.  
 
-## Highlight （**Faster Convergence and Outstanding Performance**）
+## 🚀 Highlight （**Faster Convergence and Outstanding Performance**）
 
 | Model  | Training Epochs | Rank-1 (%) | mAP(%)    | Training Time |
 | ------ | --------------- | ---------- | --------- | ------------- |
@@ -21,13 +21,13 @@ This repository is an official implementation of [DSCNet](https://arxiv.org/abs/
 ## ⚙️ Setup environment
 * Clone this repo: 
 
-  `git clone https://github.com/bitreidgroup/DSCNet.git && cd DSCNet`
+`git clone https://github.com/bitreidgroup/DSCNet.git && cd DSCNet`
 
 * Create a conda environment and activate the environment.
   
-* `conda env create -f environment.yaml`  
+`conda env create -f environment.yaml`  
   
-  `conda activate dsc` 
+`conda activate dsc` 
 
 *We recommend Python = 3.6, CUDA = 10.0, Cudnn = 7.6.5, Pytorch = 1.2, and CudaToolkit = 10.0.130 for the environment.* 
 
