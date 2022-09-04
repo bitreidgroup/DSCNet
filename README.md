@@ -35,9 +35,9 @@ conda env create -f environment.yaml &&  conda activate dsc
 - **SYSU-MM01 Dataset** :  The SYSU-MM01 dataset can be downloaded from this [website](http://isee.sysu.edu.cn/project/RGBIRReID.htm). 
 
 - We preprocess the SYSU-MM01 dataset to speed up the training process. The identities of cameras will be also stored in ".npy" format.
-
-  `python pre_process_sysu.py`  
-
+```shell
+python pre_process_sysu.py
+```
 - **RegDB Dataset** :  The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
 
   (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website).
