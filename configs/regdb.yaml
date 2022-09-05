@@ -1,0 +1,47 @@
+## Note: color = rgb = visible, thermal = ir = infrared.
+
+## dataset parameters
+dataset: sysu                # sysu or regdb
+dataset_path: RegDB_DATASET_PATH    #To do : Please replace the path 
+mode: all                    # all or indoor (sysu test), thermaltovisible or visibletothermal (regdb test)
+workers: 4                   # number of data loading workers (default: 4)
+dataset_num_size: 1          # the multiple of dataset size per trainloader
+method: dsc                  # method type: base (agw), dsc
+## model parameters
+arch: resnet50               # network baseline
+pool_dim: 2048               # pooling dim: 2048 for resnet50
+resume: None
+trial: 1                       # 'trial (only for RegDB dataset)  
+## optimizer parameters
+optim: sgd                   # optimizer: adam
+lr: 0.1                      # learning rate: 0.1 for sgd, 0.0035 for adam
+                    
+## normal parameters
+file_name: DSCNet-reid/        # log file name
+# setting: semi-supervised     # training setting: supervised or semi-supervised or unsupervised
+setting: supervised
+seed: 0                      # random seed
+gpu: 0                       # gpu device ids for CUDA_VISIBLE_DEVICES
+model_path: save_model/      # model save path
+log_path: log/               # log save path
+vis_log_path: vis_log/       # tensorboard log save path
+save_epoch: 20               # save model every few epochs
+img_w: 144                   # image width
+img_h: 288                   # image height
+train_batch_size: 6          # training batch size: 6
+num_pos: 8                   # number of pos per identity for each modality: 8
+test_batch_size: 64          # testing batch size
+start_epoch: 0               # start training epoch
+end_epoch: 81                # end training epoch
+eval_epoch: 1                # testing epochs
+augc: 1                     # use channel aug or not
+rande: 0.5                  # use random erasing or not and the probability
+alpha: 1                    # magnification for the hard sample mining
+gamma: 1                    # gamma for the hard sample  mining
+square: 1                   # gamma for the hard sample mining 
+## loss parameters 
+kl: 0.1                     # use kl loss and the weight
+margin: 0.3                  # triplet loss margin
+lambda_1: 1               # coefficient of loss function
+lambda_2: 1               # coefficient of loss function
+lambda_3: 1               # coefficient of loss function

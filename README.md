@@ -8,10 +8,12 @@ This repository is an official implementation of [DSCNet](https://arxiv.org/abs/
 </div><br/>
 
 ## 📈 News
-**2022.07.04** PETR has been accepted by IEEE Transactions on Information Forensics and Security (TIFS).  
+**2022.07.04** DSCNet has been accepted by IEEE Transactions on Information Forensics and Security (TIFS).  
 **2022.09.04** Code Release.  
 
-## 🚀 Highlight （**Faster Convergence and Outstanding Performance**）
+## 🚀 Highlight 
+1. **Insights**: This paper derives the modality discrepancy from the channel-level semantic inconsistency. It is the **FIRST** method to address the limitations on the channel-level representation.
+2. **A strong baseline**: Faster Convergence and Outstanding Performance for VI-ReID.
 
 | Model  | Training Epochs | Rank-1 (%) | mAP(%)    | Training Time |
 | ------ | --------------- | ---------- | --------- | ------------- |
@@ -36,7 +38,7 @@ conda env create -f environment.yaml &&  conda activate dsc
 
 - We preprocess the SYSU-MM01 dataset to speed up the training process. The identities of cameras will be also stored in ".npy" format.
 ```shell
-python pre_process_sysu.py
+python utils/pre_process_sysu.py
 ```
 - **RegDB Dataset** :  The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
 
@@ -61,13 +63,13 @@ bash scripts/train_sysu_indoor.sh
 ## 💽 Testing
 
 ```shell
-python scripts/test.py --ckpt [Your_CKPT_PATH] --dataset sysu --mode
+PYTHONPATH="$(dirname $0)/..":$PYTHONPATH python scripts/test.py --ckpt [CKPT_PATH] --config [CONFIT] 
 ```
 
 For example :  You can test the checkpoints by running the commands below.
 
 ```shell
-python scripts/test.py --ckpt ./DSCNet_epoch46.pth --dataset sysu --mode
+bash scripts/eval_sysu.sh
 ```
 
 
@@ -84,7 +86,7 @@ DSCNet: We provide some experimental  results on the **SYSU-MM01** datasets with
 Before running the commands below, please update the config files on the setting of  `resume`.
 
 ```shell
-python scripts/test.py --config configs/sysu.yaml
+python scripts/reproduce.sh
 ```
 
 
