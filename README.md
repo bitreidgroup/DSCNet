@@ -111,7 +111,6 @@ If this repository helps your research, please cite :
 @inproceedings{zhang2022dual,
   title={Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification},
   author={Zhang, Yiyuan and Kang, Yuhao and Zhao, Sanyuan and Shen, Jianbing},
-  booktitle={IEEE Transactions on Information Forensics and Security (TIFS)},
   year={2022},
 }
 ```
