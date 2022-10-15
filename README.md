@@ -11,9 +11,8 @@ This repository is an official implementation of DSCNet, a strong baseline for V
   <img src="assets\teaser.png" width="60%" height="60%" />
 </div><br/>
 
-## 📈 News
-**2022.07.04** DSCNet has been accepted by IEEE Transactions on Information Forensics and Security (TIFS).  
-**2022.09.04** Code Release.  
+## 📈 News 
+**2022.10.15** Code Release.  
 
 ## 🚀 Highlight 
 1. **Insights**: This paper derives the modality discrepancy from the channel-level semantic inconsistency. It is the **FIRST** method to address the limitations on the channel-level representation.
