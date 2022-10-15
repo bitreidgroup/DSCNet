@@ -118,12 +118,8 @@ If this repository helps your research, please cite :
 
 ###  📄 References.
 
-1. 
-2. 
-
-3. Ye, M., Shen, J., Lin, G., Xiang, T., Shao, L., & Hoi, S. C. (2021). Deep learning for person re-identification: A survey and outlook. *IEEE transactions on pattern analysis and machine intelligence*, *44*(6), 2872-2893.
-
-4. M. Ye, W. Ruan, B. Du, and M. Shou. Channel Augmented Joint Learning for Visible-Infrared Recognition. IEEE International Conference on Computer Vision (ICCV), 2021.
+1. Y. Zhang, Y. Kang, S. Zhao, and J. Shen Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification.
+2. M. Ye, W. Ruan, B. Du, and M. Shou. Channel Augmented Joint Learning for Visible-Infrared Recognition. IEEE International Conference on Computer Vision (ICCV), 2021.
 
 ###  ✉️ Contact.
 
