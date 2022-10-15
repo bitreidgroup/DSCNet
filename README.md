@@ -1,4 +1,4 @@
-#  Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification (TIFS 2022)
+#  Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification
 
 <p align="left">
   <br>
