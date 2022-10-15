@@ -84,8 +84,8 @@ DSCNet: We provide some experimental  results on the **SYSU-MM01** datasets with
 
 | config            | Rank-1(%) | Rank-10(%) |mAP(%)    | Training Log | Pretrained |
 |:--------:|:----------:|:---------:|:--------:|:--------:|:-------------:|
-| SYSU-MM01(all-search) | 73.89 | 96.27 | 69.47 | [log](https://drive.google.com/file/d/1pXT6JltfMF0PAyG17zVcoXLJEYMKVWQr/view?usp=sharing) |   [gdrive](https://drive.google.com/file/d/1c5rgTpHA98dFKmQ9BJN0zZbSuBFT8_Bt/view?usp=sharing)     |
-| SYSU-MM01(indoor-search) | 79.35 | 95.74 | 82.68 | [log](https://drive.google.com/file/d/1pXT6JltfMF0PAyG17zVcoXLJEYMKVWQr/view?usp=sharing) | [gdrive](https://drive.google.com/file/d/1c5rgTpHA98dFKmQ9BJN0zZbSuBFT8_Bt/view?usp=sharing) |
+| SYSU-MM01(all-search) | 73.89 | 96.27 | 69.47 | log(TBD) |   Weights(TBD)     |
+| SYSU-MM01(indoor-search) | 79.35 | 95.74 | 82.68 | log(TBD) | Weights(TBD) |
 
 Before running the commands below, please update the config files on the setting of  `resume`.
 
