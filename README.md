@@ -1,4 +1,4 @@
-#  Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification
+#  Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification (TIFS 2022)
 
 <p align="left">
   <br>
@@ -12,6 +12,7 @@ This repository is an official implementation of DSCNet, a strong baseline for V
 </div><br/>
 
 ## 📈 News 
+**2022.10.24** DSCNet has been formally accepted by IEEE Transactions on Information Forensics & Security.  
 **2022.10.15** Code Release.  
 
 ## 🚀 Highlight 
@@ -83,8 +84,8 @@ DSCNet: We provide some experimental  results on the **SYSU-MM01** datasets with
 
 | config            | Rank-1(%) | Rank-10(%) |mAP(%)    | Training Log | Pretrained |
 |:--------:|:----------:|:---------:|:--------:|:--------:|:-------------:|
-| SYSU-MM01(all-search) | 73.89 | 96.27 | 69.47 | log(TBD) |   Weights(TBD)     |
-| SYSU-MM01(indoor-search) | 79.35 | 95.74 | 82.68 | log(TBD) | Weights(TBD) |
+| SYSU-MM01(all-search) | 73.89 | 96.27 | 69.47 | log(TBA) |   Weights(TBA)     |
+| SYSU-MM01(indoor-search) | 79.35 | 95.74 | 82.68 | log(TBA) | Weights(TBA) |
 
 Before running the commands below, please update the config files on the setting of  `resume`.
 
@@ -112,12 +113,13 @@ If this repository helps your research, please cite :
   title={Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification},
   author={Zhang, Yiyuan and Kang, Yuhao and Zhao, Sanyuan and Shen, Jianbing},
   year={2022},
+  booktitle={IEEE Transactions on Information Forensics & Security},
 }
 ```
 
 ###  📄 References.
 
-1. Y. Zhang, Y. Kang, S. Zhao, and J. Shen Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification.
+1. Y. Zhang, Y. Kang, S. Zhao, and J. Shen Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification. IEEE Transactions on Information Forensics & Security, 2022.
 2. M. Ye, W. Ruan, B. Du, and M. Shou. Channel Augmented Joint Learning for Visible-Infrared Recognition. IEEE International Conference on Computer Vision (ICCV), 2021.
 
 ###  ✉️ Contact.
