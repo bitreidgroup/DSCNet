@@ -109,17 +109,18 @@ All our experiments were performed on a single NVIDIA GeForce 2080 Ti GPU
 If this repository helps your research, please cite :
 
 ```
-@inproceedings{zhang2022dual,
+@article{zhang2022dual,
   title={Visible-Infrared Person Re-Identification by Dual-Semantic Consistency Learning},
   author={Zhang, Yiyuan and Kang, Yuhao and Zhao, Sanyuan and Shen, Jianbing},
   year={2022},
-  booktitle={IEEE Transactions on Information Forensics & Security},
+  journal={IEEE Transactions on Information Forensics and Security},
+  publisher={IEEE} 
 }
 ```
 
 ###  📄 References.
 
-1. Y. Zhang, Y. Kang, S. Zhao, and J. Shen Visible-Infrared Person Re-Identification by Dual-Semantic Consistency Learning. IEEE Transactions on Information Forensics & Security, 2022.
+1. Y. Zhang, Y. Kang, S. Zhao, and J. Shen. Visible-Infrared Person Re-Identification by Dual-Semantic Consistency Learning. IEEE Transactions on Information Forensics & Security, 2022.
 2. M. Ye, W. Ruan, B. Du, and M. Shou. Channel Augmented Joint Learning for Visible-Infrared Recognition. IEEE International Conference on Computer Vision (ICCV), 2021.
 
 ###  ✉️ Contact.
