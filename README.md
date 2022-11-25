@@ -2,7 +2,7 @@
 
 <p align="left">
   <br>
-    <a href='https://github.com/bitreidgroup/DSCNet/blob/main/assets/DSCNet.pdf?download=True'>
+    <a href='https://ieeexplore.ieee.org/document/9963944'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='Paper PDF'>
     </a>
 </p>
