@@ -1,4 +1,4 @@
-#  Visible-Infrared Person Re-Identification by Dual-Semantic Consistency Learning (TIFS 2022)
+#  Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification (TIFS 2022)
 
 <p align="left">
   <br>
@@ -110,17 +110,17 @@ If this repository helps your research, please cite :
 
 ```
 @article{zhang2022dual,
-  title={Visible-Infrared Person Re-Identification by Dual-Semantic Consistency Learning},
+  title={Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification},
   author={Zhang, Yiyuan and Kang, Yuhao and Zhao, Sanyuan and Shen, Jianbing},
-  year={2022},
   journal={IEEE Transactions on Information Forensics and Security},
-  publisher={IEEE} 
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
 ###  📄 References.
 
-1. Y. Zhang, Y. Kang, S. Zhao, and J. Shen. Visible-Infrared Person Re-Identification by Dual-Semantic Consistency Learning. IEEE Transactions on Information Forensics & Security, 2022.
+1. Y. Zhang, Y. Kang, S. Zhao, and J. Shen. Dual-Semantic Consistency Learning for Visible-Infrared Person Re-Identification. IEEE Transactions on Information Forensics & Security, 2022.
 2. M. Ye, W. Ruan, B. Du, and M. Shou. Channel Augmented Joint Learning for Visible-Infrared Recognition. IEEE International Conference on Computer Vision (ICCV), 2021.
 
 ###  ✉️ Contact.
